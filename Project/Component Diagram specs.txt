@@ -1,0 +1,106 @@
+Autentication Interface:
+
+Proccess Data Interface:
+
+Registration Interface:
+
+Login Interface:
+
+Proccess Authentication Data:
+
+Home Interface:
+	searchUser(String username)
+	listChat()
+	selectChat(username)
+	sendMessage(String message)
+	createChat(String username)
+	listPosts()
+	selectPost(postID)
+	deletePost(Post post)
+	cancelDeletePost()
+	editProfile()
+	applyChanges(UserInfo info)
+	cancelEditProfile()
+	createPost()
+	addPhoto(String filepath)
+	addVideo(String filepath)
+	addEffect(String effect)
+	addText(String text)
+	concludePost(Post post)
+	cancelNewPost(Post post)
+	requestFollow(String username)
+	acceptFollowerRequest()
+
+Profile Interface:
+	editProfile()
+	applyChanges(UserInfo info)
+	listPosts()
+	selectPost(postID)
+	deletePost(Post post)
+	follow(String username)
+	acceptFollowerRequest()
+	cancelEditProfile()
+
+Save Interface:
+
+User Data Interface:
+	getUserInfo(String username)
+	getUser(String username)
+	follow(String username)
+	hasUser(String username)
+	applyChanges(UserInfo info)
+	addFollowerRequest(String username)
+	addFollowing(String username)
+	addFollower(String username)	
+	getFollower(String username)
+	cancelEditProfile()
+
+Message Interface:
+	selectChat(String username)
+	sendMessage(String message)
+	searchUser(String username)
+	createChat(String username)
+
+Message Data Interface:
+	listChat()
+	selectChat(String username)
+	newMessage(String message)
+	searchUser(String username)
+	createChat(String username)
+
+Post Interface:
+	addPhoto(String filepath)
+	addVideo(String filepath)
+	addEffect(String effect)
+	addText(String text)
+	concludePost(Post post)
+	discardPost(Post post)
+
+Post Data Interface:
+	createPost()
+	addPhoto(String filepath)
+	addVideo(String filepath)
+	addEffect(String effect)
+	addText(String text)
+	concludePost(Post post)
+	discardPost(Post post)
+	listPosts()	
+	getPost(postID)
+	deletePost(Post post)
+
+Story Interface:
+
+Stories Data Interface:
+
+Effects Interface:
+
+Activity Interface:
+
+Activity Data Interface:
+
+Search Interface:
+	searchUser(String username)
+
+Search Data Interface:
+	searchUser(String username)
+

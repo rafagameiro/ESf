@@ -1,0 +1,50 @@
+Client-side:
+	Main Interface
+	Profile Interface
+	Stories Interface
+	Message Interface
+	Activity Interface
+	Autentication Interface
+	Post Interface
+
+Instagram plus server:
+	User Controller
+	Story Controller
+	Message Controller
+	Activity Controller
+	Register Controller
+	Login Controller
+	Post Controller
+	Saved Posts and Stories Controller
+	Search Controller
+
+Database server:
+	Saved Stories
+	Stories	
+	Story Items		
+	Message
+	Chat	
+	Activity Items
+	Saved Post
+	Posts		
+	Search Page
+	Reactions
+	Likes	
+	Comments
+	Save
+	Share
+	Effects
+	Filter	
+	Sticker
+	Face Effect
+	
+	
+		
+
+	
+	
+
+	
+
+
+	
